@@ -1,0 +1,190 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+p{
+    color: #1b1b1b;
+}
+
+h2, h3{
+    color: #ff7f00;
+}
+
+/* NAV BAR STYLES */
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-between;
+    opacity: 1;
+    background-color: #1b1b1b;
+    z-index: 1;
+}
+
+.logo-role{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 10%;
+    margin: 1% 1% 1% 6%;
+}
+
+.role{
+    margin-left: 5%;
+    font-family: "Libre Baskerville";
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li{
+    margin-left: 20%;
+    font-family: "Libre Baskerville";
+    font-size: 1.5rem;
+}
+
+a{
+    color: #ff7f00;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover{
+    color: #fff;
+}
+
+nav{
+    margin: 2% 15% 2% 2%;
+}
+
+/* DESCRIPTION STYLES */
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.description{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.my-portrait{
+    margin-right: 10px;
+    width: 300px;
+}
+
+
+.description-text{
+    margin-left: 10px;
+    width: 50%;
+}
+
+/* DIVIDER */ 
+
+.divider{
+    width: 72%;
+    height: 1px;
+    background-color: #1d1d1d;
+    display: inline-block;
+    opacity: 0.4;
+    margin-bottom: 20px;
+}
+
+/* CURRICULUM STYLES */
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 100px;
+}
+
+.curriculum{
+    width: 72%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+.CV-title{
+    border-bottom-style: solid;
+    border-color: #ff7f00;
+    border-width: 2px;
+}
+
+.cv{
+    width: 30%;
+    height: 50px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+    border: 3px solid #ff7f00;
+}
+
+.cv:hover{
+    background-color:#ff7f00;
+}
+
+.cv h3:hover{
+    color: #fff;
+}
+
+/* CONTACT/SOCIAL MEDIA AND RIGHTS */
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 4% 0 4%;
+    width: 4%;
+    transition: 0.5s;
+}
+
+.contact-link:hover{
+    opacity: 0.6;
+}
+
+.link-image{
+    width: 100%;
+}
